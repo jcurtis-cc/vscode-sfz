@@ -76,7 +76,7 @@
 						"1": { "name": "variable.language.sound-source.$1.sfz" },
 						"2": { "name": "keyword.operator.assignment.sfz" }
 					},
-					"end": "(?=(\\s\/\/|$))",
+					"end": "(?=(\\s\/\/|\\s\/\\*|\\s\\w*\\=|$))",
 					"contentName": "string.unquoted.sfz"
 				},
 				{ "comment": "opcodes: (delay|delay_random|delay_onccN): (0 to 100 percent)",
